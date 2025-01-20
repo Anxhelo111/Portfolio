@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#about">Rreth Meje</a></li>
+      <li><a href="#skills">Aftesite</a></li>
+      <li><a href="#project">Projektet</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="header-content">
+      <h1>Anxhelo Cekani</h1>
+      <p class="tagline">Zhvillues Inovativ | Vizionar i së ardhmes</p>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="about-container">
+      <div class="photo">
+        <img src="image1.jpg" alt="Your Photo" />
+      </div>
+      <div class="about-content">
+        <h2>Rreth Meje</h2>
+        <p>
+          Pershendetje! Une jam Anxhelo Cekani nje zhvillues software i fokusuar drejt Front-End dhe i apasionuar per Video-Games. 
+        </p>
+        <a href="CV.pdf" download="CV.pdf" id="cv-link" style="display: none;"></a>
+        <button type="button" onclick="document.getElementById('cv-link').click();" class="btn">
+        Download My CV
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Aftesite e mia</h2>
+    <div class="skill">
+      <p>HTML <span class="percentage">75%</span></p>
+      <div class="skill-bar">
+        <div class="progress" data-value="75"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>CSS <span class="percentage">65%</span></p>
+      <div class="skill-bar">
+        <div class="progress" data-value="65"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>JavaScript <span class="percentage">45%</span></p>
+      <div class="skill-bar">
+        <div class="progress" data-value="45"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+<section id="project">
+  <h2>Projektet</h2>
+  <div class="project-grid">
+    <div class="project">
+      <img src="img1.png" alt="Project 1">
+      <h3>Projekt 1</h3>
+      <p>Loja Pac Man</p>
+    </div>
+    <div class="project">
+      <img src="img2.png" alt="Project 2">
+      <h3>Projekt 2</h3>
+      <p>Loja me Gjarper</p>
+    </div>
+    <div class="project">
+      <img src="img3.png" alt="Project 3">
+      <h3>Projekt 3</h3>
+      <p>Loja Flappy Bird</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="kontakt">
+  <h2>Me Kontakto</h2>
+  <div class="kontakt-box">
+    <form action="https://formsubmit.co/acekani23@beder.edu.al" method="POST">
+      <label for="name">Emri:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Emaili:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Mesazhi:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Dergo Mesazhin</button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2025 Anxhelo Cekani. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

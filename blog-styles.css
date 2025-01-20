@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #45a049;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Blog Posts Section */
+  main {
+    padding: 20px;
+  }
+  
+  section#blog-posts {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .blog-post {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post p {
+    margin: 1px 0;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #45a049;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } 
